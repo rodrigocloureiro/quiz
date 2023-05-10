@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+  background-image: url('../assets/img/backgroundPC.png');
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question_area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 171px;
+  background-color: #5D9BA4B3;
+  box-shadow: 0px 4px 4px #00000066;
+  border-radius: 25px;
+  margin: 20px 0 0 0;
+}
+
+#question {
+  width: 80%;
+  font-size: 22px;
+}
+
+.alternative {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 318px;
+  height: 60px;
+  color: #000000 !important;
+  background-color: #5D9BA4B3;
+  box-shadow: 0px 4px 4px #00000080;
+  border-radius: 15px;
+  font-size: 22px;
+  margin: 20px 0 0 0;
+  cursor: pointer;
+  transition: .3s;
+}
+
+/* .alternative:not(.alternative.acertou):not(.alternative.errou):hover {
+  background-color: rgba(93, 155, 164);
+} */
+
+/* Funciona como o código acima (sintaxe reduzida) */
+.alternative:hover:not(.success):not(.mistake) {
+  background-color: #5D9BA4;
+}
+
+.success {
+  /* background-color: #27A41C; */
+  color: #27A41C;
+  animation: success 1s linear infinite;
+}
+
+@keyframes success {
+  0% {
+    background-color: #27A41C;
+  }
+  50% {
+    background-color: #0F6907;
+  }
+  100% {
+    background-color: #27A41C;
+  }
+}
+
+.mistake {
+  /* background-color: #E22121; */
+  color: #E22121;
+  animation: mistake 1s linear infinite;
+}
+
+@keyframes mistake {
+  0% {
+    background-color: #E22121;
+  }
+  50% {
+    background-color: #A61111;
+  }
+  100% {
+    background-color: #E22121;
+  }
+}
+
+#situation {
+  font-size: 34px;
+  font-weight: 600;
+  margin: 20px 0;
+  transition: .3s;
+  background-color: transparent !important;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.show {
+  opacity: 100;
+}
+
+.next_btn {
+  width: 180px;
+  height: 39px;
+  border: none;
+  border-radius: 25px;
+  background: radial-gradient(55% 1171.6% at 50% 51.28%, #72ADB6 0%, #366269 100%);
+  font-size: 22px;
+}
+
+.next_btn:not(:disabled):hover {
+  cursor: pointer;
+  background: radial-gradient(55% 1171.6% at 50% 51.28%, #72ADB6 50%, #366269 100%);
+}
+
+@media(min-width: 7668px) {
+  .question_area {
+    height: 201px;
+  }
+}

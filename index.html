@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Quiz</title>
+  <link href="./css/modal.css" rel="stylesheet" type="text/css" />
+  <link href="./css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div id="myModal" class="modal">
+  
+    <div class="modal_content">
+      
+      <div class="modal_header">
+        
+        <span class="close">&times;</span>
+        
+        <h2>RESULT</h2>
+        
+      </div>
+      
+      <div class="modal_body">
+        
+        <p>Parabéns!</p>
+        
+        <p>You got it right <span id="resultado"></span></p>
+        
+      </div>
+    
+    </div>
+  
+  </div>
+
+    <div class="question_area">
+      
+      <p id="question"></p>
+      
+    </div>
+
+    <div class="alternative"></div>
+
+    <div class="alternative"></div>
+
+    <div class="alternative"></div>
+
+    <div class="alternative"></div>
+
+    <div class="alternative"></div>
+
+    <p id="situation" class="hide">Correct..</p>
+
+    <button class="next_btn">Next</button>
+
+  </div>
+
+  <script src="./js/script.js"></script>
+
+</body>
+
+</html>

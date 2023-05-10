@@ -1,0 +1,124 @@
+{
+  "perguntas": [
+    {
+      "id": 1,
+      "pergunta": "Qual é o nome do agente líder da equipe de NCIS?",
+      "alternativas": [
+        "Anthony DiNozzo",
+        "Leroy Jethro Gibbs",
+        "Timothy McGee",
+        "Ziva David",
+        "Abigail Sciuto"
+      ],
+      "resposta_correta": "Leroy Jethro Gibbs"
+    },
+    {
+      "id": 2,
+      "pergunta": "Qual é o nome do patologista forense que trabalha com a equipe de NCIS?",
+      "alternativas": [
+        "Ducky Mallard",
+        "Abby Sciuto",
+        "Jimmy Palmer",
+        "Kate Todd",
+        "Ziva David"
+      ],
+      "resposta_correta": "Ducky Mallard"
+    },
+    {
+      "id": 3,
+      "pergunta": "Qual é o nome do agente do Mossad que se torna um membro da equipe de NCIS?",
+      "alternativas": [
+        "Tony DiNozzo",
+        "Timothy McGee",
+        "Ziva David",
+        "Leroy Jethro Gibbs",
+        "Abby Sciuto"
+      ],
+      "resposta_correta": "Ziva David"
+    },
+    {
+      "id": 4,
+      "pergunta": "Qual é o nome da diretora do NCIS que foi morta em uma das temporadas?",
+      "alternativas": [
+        "Kate Todd",
+        "Abby Sciuto",
+        "Ziva David",
+        "Jenny Shepard",
+        "Ellie Bishop"
+      ],
+      "resposta_correta": "Jenny Shepard"
+    },
+    {
+      "id": 5,
+      "pergunta": "Qual é o nome do agente que se junta à equipe na 19ª temporada como agente especial?",
+      "alternativas": [
+        "Jessica Knight",
+        "Nick Torres",
+        "Maria Bello",
+        "Gary Clark Jr.",
+        "Aiden Parker"
+      ],
+      "resposta_correta": "Aiden Parker"
+    },
+    {
+      "id": 6,
+      "pergunta": "Qual o nome do diretor do NCIS que trabalha na série durante as primeiras duas temporadas?",
+      "alternativas": [
+        "Jenny Shepard",
+        "Leon Vance",
+        "Tom Morrow",
+        "M. Allison Hart",
+        "Ari Haswari"
+      ],
+      "resposta_correta": "Tom Morrow"
+    },
+    {
+        "id": 7,
+        "pergunta": "Qual é o nome completo da agente conhecida como Ellie?",
+        "alternativas": [
+            "Ellie Knight",
+            "Ellie Bishop",
+            "Ellie Shepard",
+            "Ellie Vance",
+            "Ellie Sciuto"
+        ],
+        "resposta_correta": "Ellie Bishop"
+    },
+    {
+      "id": 8,
+      "pergunta": "Qual é o nome do bar em que a equipe de NCIS costuma se encontrar após o trabalho?",
+      "alternativas": [
+        "O'Malley's",
+        "McGee's",
+        "Gibbs' Place",
+        "The Watering Hole",
+        "The Navy Yard Bar & Grill"
+      ],
+      "resposta_correta": "O'Malley's"
+    },
+    {
+      "id": 9,
+      "pergunta": "Qual é o nome do personagem que foi introduzido na terceira temporada como um interesse amoroso de Tony DiNozzo?",
+      "alternativas": [
+        "Abby Sciuto",
+        "Jeanne Benoit",
+        "Paula Cassidy",
+        "Jen Shepard",
+        "Vivian Blackadder"
+      ],
+      "resposta_correta": "Jeanne Benoit"
+    },
+    {
+      "id": 10,
+      "pergunta": "Qual é o nome do pai de Leroy Jethro Gibbs?",
+      "alternativas": [
+        "Jackson Gibbs",
+        "Robert Gibbs",
+        "William Gibbs",
+        "Henry Gibbs",
+        "John Gibbs"
+      ],
+      "resposta_correta": "Jackson Gibbs"
+    }
+  ]
+}
